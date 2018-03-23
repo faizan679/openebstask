@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mygocontainer
-        image: saurabhs051/mylatestgoapp:v1
+        image: faizan679/myimage:v1
         ports:
         - containerPort: 8080
