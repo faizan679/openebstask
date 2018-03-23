@@ -1,0 +1,13 @@
+---
+ apiVersion: v1
+ kind: Pod
+ metadata:
+   name: mypod
+   labels:
+     app: web
+ spec:
+   containers:
+     - name: mygocontainer
+       image: saurabhs051/mylatestgoapp:v1
+       ports:
+         - containerPort: 8080
